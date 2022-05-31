@@ -1,0 +1,81 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\projects\\2022-03-09-cryptoloot-gamefi\\contracts\\CryptoLoot.sol": {
+      "lastModificationDate": 1646983070014,
+      "contentHash": "640226e3e40147c7ada261f820d6b710",
+      "sourceName": "contracts/CryptoLoot.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.3"
+      ],
+      "artifacts": [
+        "Context",
+        "CryptoLoot",
+        "IBEP20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "E:\\projects\\2022-03-09-cryptoloot-gamefi\\contracts\\Staking.sol": {
+      "lastModificationDate": 1646997608169,
+      "contentHash": "ec923158d5dc72f19ce7f051c768a823",
+      "sourceName": "contracts/Staking.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20",
+        "SafeMath",
+        "Staking"
+      ]
+    }
+  }
+}

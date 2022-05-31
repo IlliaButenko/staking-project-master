@@ -1,0 +1,74 @@
+{
+  "name": "cryptoloot-gamefi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.0",
+    "image-to-base64": "^2.2.0",
+    "jquery": "^3.6.0",
+    "konva": "^8.2.1",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-konva": "^17.0.2-5",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-timer-hook": "^3.0.5",
+    "sass": "^1.38.0",
+    "styled-components": "^5.3.3",
+    "swiper": "^7.4.1",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy_test": "npx hardhat test",
+    "deploy_fantomtest": "npx hardhat run --network fantomtestnet scripts/deploy.js",
+    "deploy_ganache": "npx hardhat run --network ganache scripts/deploy.js",
+    "deploy_local": "npx hardhat run --network localhost scripts/deploy.js",
+    "deploy_bsctest": "npx hardhat run --network bsctestnet scripts/deploy.js",
+    "deploy_bsc": "npx hardhat run --network bsc scripts/deploy.js",
+    "deploy": "npx hardhat run --network bsc scripts/deploy-production.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.1"
+  }
+}

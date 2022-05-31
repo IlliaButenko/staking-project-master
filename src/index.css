@@ -1,0 +1,35 @@
+.container-out::-webkit-scrollbar {
+  background: grey;
+  border-top: 3px solid #09080d;
+  border-bottom: 3px solid #09080d;
+  height: 10px;
+  border-radius: 5px;
+  width: 50px;
+  scrollbar-width: thin;
+}
+
+.container-out::-webkit-scrollbar-thumb {
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 9px;
+}
+
+.container-out::-webkit-scrollbar-track {
+  margin-right: 50px;
+}
+
+.container-out::-webkit-scrollbar-track {
+  margin-left: 50px;
+}
+
+.responsive-bar-icon {
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  color: white;
+}
+
+.mdemail {
+  font-size: 28px;
+  color: #fff;
+}
